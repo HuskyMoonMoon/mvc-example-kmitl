@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "noImplicitAny": true,
+    "outDir": "./dist",
+    "sourceMap": true,
+    "lib": [
+      "es2015",
+      "es6"
+    ],
+    "baseUrl": "./",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "paths": {
+      "app/*": [
+        "./src/*"
+      ],
+      "test/*": [
+        "./test/*"
+      ],
+      "migrations/*": [
+        "./migrations/*"
+      ],
+      "seeds/*": [
+        "./seeds/*"
+      ]
+    },
+    "typeRoots": [
+      "./typings",
+      "./node_modules/@types"
+    ]
+  },
+  "include": [
+    "./src/**/*",
+    "./test/**/*",
+    "./migrations/**/*",
+    "./seeds/**/*", "src/assets"
+  ]
+}
