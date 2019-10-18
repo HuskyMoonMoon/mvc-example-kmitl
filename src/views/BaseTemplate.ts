@@ -50,7 +50,7 @@ export const render = (page: string, child: Promise<string>) => {
         </nav>
 
         <main role="main" class="container">
-        ${child }
+        ${child}
         </main>
 
         <!-- Bootstrap core JavaScript

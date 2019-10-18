@@ -53,8 +53,8 @@ export class BankingService {
             };
         }
         account.balance -= withdrawAmount;
-        this._bankAccountRepository.updateAccount(account);
-        this.recordTransaction(account, -withdrawAmount, `Withdraaw`);
+        await this._bankAccountRepository.updateAccount(account);
+        await this.recordTransaction(account, -withdrawAmount, `Withdraw`);
     }
 
     public async transfer(token: string, toAccountId: string, transferAmount: number) {

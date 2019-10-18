@@ -113,7 +113,7 @@ export class BankController {
         @Ctx() context: Context
     ) {
         try {
-            this.bankingService.withdraw(context.cookies.get("token"), amount);
+            await this.bankingService.withdraw(context.cookies.get("token"), amount);
             context.redirect("/");
             return context;
         } catch (err) {
