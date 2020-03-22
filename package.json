@@ -80,8 +80,5 @@
         "build": "tsc --project . && tspath -f",
         "clean": "rm -rf dist/*",
         "start": "node ./dist/server.js"
-    },
-    "pre-commit": [
-        "build"
-    ]
+    }
 }
