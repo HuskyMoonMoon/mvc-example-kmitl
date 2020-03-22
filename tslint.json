@@ -39,14 +39,7 @@
             120
         ],
         "member-ordering": [
-            true,
-            {
-                "order": [
-                    "private-before-public",
-                    "static-before-instance",
-                    "variables-before-functions"
-                ]
-            }
+            false
         ],
         "no-any": true,
         "no-arg": true,

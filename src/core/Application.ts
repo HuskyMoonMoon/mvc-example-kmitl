@@ -10,8 +10,8 @@ import {
 import { AuthorizationChecker } from "routing-controllers/AuthorizationChecker";
 import { CurrentUserChecker } from "routing-controllers/CurrentUserChecker";
 
+import * as _ from "lodash";
 import Container from "typedi";
-import _ = require("lodash");
 
 // tslint:disable: ban-types
 export class Application {

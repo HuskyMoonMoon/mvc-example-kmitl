@@ -33,19 +33,10 @@ export const render = (page: string, child: Promise<string>) => {
                 <li class="nav-item ${page.toLowerCase() === "index" ? "active" : ""}">
                 <a class="nav-link" href="/">Home</a>
                 </li>
-                <li class="nav-item ${page.toLowerCase() === "deposit" ? "active" : ""}">
-                <a class="nav-link" href="/deposit">Deposit</a>
-                </li>
-                <li class="nav-item ${page.toLowerCase() === "withdraw" ? "active" : ""}">
-                <a class="nav-link" href="/withdraw">Withdraw</a>
-                </li>
-                <li class="nav-item ${page.toLowerCase() === "transfer" ? "active" : ""}">
-                <a class="nav-link" href="/transfer">Transfer</a>
+                <li class="nav-item ${page.toLowerCase() === "add" ? "active" : ""}">
+                <a class="nav-link" href="/add">Add</a>
                 </li>
             </ul>
-            <form class="form-inline mt-2 mt-md-0">
-                <a href="/logout" class="btn btn-danger my-2 my-sm-0">Log out</a>
-            </form>
             </div>
         </nav>
 

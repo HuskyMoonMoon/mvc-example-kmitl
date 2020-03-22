@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "",
     "main": "src/app.ts",
-    "author": "Kaori Ota",
+    "author": "Huskymoonmoon",
     "license": "MIT",
     "dependencies": {
         "axios": "^0.18.1",
@@ -82,7 +82,6 @@
         "start": "node ./dist/server.js"
     },
     "pre-commit": [
-        "lint",
         "build"
     ]
 }
