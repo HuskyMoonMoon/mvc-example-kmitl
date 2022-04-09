@@ -22,7 +22,7 @@
         "koa-useragent": "^1.1.0",
         "lit-ntml": "^2.9.0",
         "lodash": "^4.17.11",
-        "moment": "^2.22.0",
+        "moment": "^2.29.2",
         "mysql": "^2.15.0",
         "reflect-metadata": "^0.1.12",
         "routing-controllers": "^0.7.6",
